@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nerds Магазин</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header_main">
+      <div class="container_size clearfix">
+        <a href="index.html">
+          <img src="images/nerds_logo1.png" alt="nerds design studio" height="56" width="139">
+        </a>
+        <nav class="header_main-nav">
+          <ul>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="market.html">Магазин</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header_main-basket">
+          <a href="#">Корзина</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-hero hero-market">
+        <div class="container_size">
+          <h1>Добро пожаловать в магазин<br>готовых макетов</h1>
+        </div>
+      </section>
+
+      <div class="container_size clearfix">
+        <section class="main-options">
+          <form action="#">
+            <fieldset>
+              <legend><h2>Стоимость:</h2></legend>
+              <div class="range_slider">
+                <div class="range_slider-field">
+                  <div class="slider-scale-back"></div>
+                  <div class="slider-scale-front"></div>
+                  <div class="slider-btn_from"></div>
+                  <div class="slider-btn_to"></div>
+                </div>
+                От:<input type="number" name="price_from">
+                До:<input type="number" name="price_to">
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend><h2>Сетка:</h2></legend>
+              <label class="custom-radio">
+                <input type="radio" name="grid_type" value="adaptive" checked><span>Адаптивная</span></label>
+              <label class="custom-radio">
+                <input type="radio" name="grid_type" value="fixed"><span>Фиксированная</span></label>
+              <label class="custom-radio">
+                <input type="radio" name="grid_type" value="rubber"><span>Резиновая</span></label>
+            </fieldset>
+            <fieldset>
+              <legend><h2>Особенности:</h2></legend>
+              <label class="custom-check">
+                <input type="checkbox" name="feature" value="slider" checked><span>Слайдер</span></label>
+              <label class="custom-check">
+                <input type="checkbox" name="feature" value="feature_block" checked><span>Блок преймуществ</span></label>
+              <label class="custom-check">
+                <input type="checkbox" name="feature" value="news"><span>Новости</span></label>
+              <label class="custom-check">
+                <input type="checkbox" name="feature" value="gallery"><span>Галерея</span></label>
+              <label class="custom-check disabled">
+                <input type="checkbox" name="feature" value="basket" checked disabled><span>Корзина</span></label>
+            </fieldset>
+            <button class="btn btn-submit" type="submit">Показать</button>
+          </form>
+        </section>
+
+        <section class="main-templates">
+          
+          <div class="main-templates-sort">
+            Сортировать:
+            <a href="#" class="btn_sort">По цене</a>
+            <a href="#" class="btn_sort">По типу</a>
+            <a href="#" class="btn_sort">По функционалу</a>
+            <a class="indicator_sort_desc sort_active">&#9660;</a>
+            <a class="indicator_sort_asc">&#9650;</a>
+          </div>
+
+          <div class="main-templates-grid">
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item1.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name</h3>
+                <p>Короткое описание макета в несколько строк</p>
+                <a href="#" class="btn">4321 р.</a>
+              </div>
+            </article>
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item2.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name overfloat</h3>
+                <p>Длинное описание которое не помещается в данный блок</p>
+                <a href="#" class="btn">5678 р.</a>
+              </div>
+            </article>
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item3.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name</h3>
+                <p>Короткое описание макета в несколько строк</p>
+                <a href="#" class="btn">4321 р.</a>
+              </div>
+            </article>
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item4.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name overfloat</h3>
+                <p>Длинное описание которое не помещается в данный блок</p>
+                <a href="#" class="btn">5678 р.</a>
+              </div>
+            </article>
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item5.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name</h3>
+                <p>Короткое описание макета в несколько строк</p>
+                <a href="#" class="btn">4321 р.</a>
+              </div>
+            </article>
+            <article class="main-templates-item">
+              <a href="#"><img src="images/market-item6.jpg" alt="template image" height="240" width="240"></a>
+              <div class="item-description">
+                <h3>Name overfloat</h3>
+                <p>Длинное описание которое не помещается в данный блок</p>
+                <a href="#" class="btn">5678 р.</a>
+              </div>
+            </article>
+          </div>
+          
+          <div class="main-templates-pagination">
+            <a href="#" class="btn btn-page pagi_current">1</a>
+            <a href="#" class="btn btn-page">2</a>
+            <a href="#" class="btn btn-page">3</a>
+            <a href="#" class="btn btn-next">Следующая</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer id="contacts" class="footer_main">
+      <div class="footer_main-map collapsefix">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2136.520173393417!2d30.51966700661138!3d50.44547791395373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4def1e77f63fc61d!2z0KbQo9Cc!5e0!3m2!1sru!2sua!4v1503236223306" width="1199" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="container_size">
+          <div class="footer_main-address">
+            <span>NЁRDS DESIGN STUDIO</span>
+            <p>02000, г.Киев, Крещатик, 38</p>
+            <p>тел. +3 (111) 765-43-21</p>
+            <a href="feed.html" class="btn btn-contact">Напишите нам</a>
+          </div>
+          <!-- <div class="footer_main-map_label"></div> -->
+        </div>
+      </div>
+
+      <div class="container_size clearfix">
+        <div class="footer-content-left">
+          <a href="#" class="btn_social vkontakte-btn">vk</a>
+          <a href="#" class="btn_social facebook-btn">fb</a>
+          <a href="#" class="btn_social instagram-btn">inst</a>
+        </div>
+        <div class="footer-content-right">
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- modal popups -->
+    <div class="modal-feed modal-container">
+      <div class="modal-feed-content">
+        <form action="#" method="post">
+          <label class="lab-left">
+            <h2>Ваше имя:</h2>
+            <input type="text" name="name" placeholder="Представтесь, пожалуйста" required>
+          </label>
+          <label  class="lab-right">
+            <h2>Ваш e-mail:</h2>
+            <input type="text" name="email" placeholder="Для отправки ответа" required>
+          </label>
+          <label>
+            <h2>Текст письма:</h2>
+            <textarea name="feed_text" placeholder="В свободной форме" required></textarea>
+          </label>
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+        <div class="modal-close"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

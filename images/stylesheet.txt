@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-letter-logo-w {
+    width: 32px;
+    height: 32px;
+    background-position: 0 0;
+}
+
+.sprite-instagram-logo-w {
+    width: 32px;
+    height: 32px;
+    background-position: -32px 0;
+}
+
+.sprite-shopping-cart-gray {
+    width: 24px;
+    height: 24px;
+    background-position: -64px 0;
+}
+
+.sprite-shopping-cart-red {
+    width: 24px;
+    height: 24px;
+    background-position: -88px 0;
+}
+
+.sprite-vk-social-network-logo-w {
+    width: 32px;
+    height: 32px;
+    background-position: -112px 0;
+}
